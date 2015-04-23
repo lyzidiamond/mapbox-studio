@@ -143,6 +143,13 @@
     text-shadow: 3px 3px 5px #222;
     background-repeat: no-repeat;
   }
+  .settings {
+    background-image: url(./images/settings.png);
+    background-position: center 5px;
+    background-size: 80%;
+    text-shadow: 3px 3px 5px #222;
+    background-repeat: no-repeat;
+  }
 
 </style>
 <script src='big.js'></script>
@@ -248,7 +255,6 @@
 <div><strong>Interesting thing:</strong> <pre><span>scalerank</span></pre> is a piece of data that comes from <em>Natural Earth</em>.</div>
 <div>The data that makes up <strong>Mapbox Streets</strong> (that we are using here in Studio) is <em>"Frankenstein data"</em> -- a mishmash of <strong>OpenStreetMap</strong> and <em>Natural Earth</em>.</div>
 <div>Line 49: <pre><span>#place_label</span></pre>: like <pre><span>#country_label</span></pre> but <em>more involved</em>.</div>
-<div>Here you can see some of the <strong>label craziness</strong> of <em>OpenStreetMap</em> and how we have to <strong>understand the attributes</strong> of our data to make <em>good styles</em>!</div>
 <div>On <pre><span>polygon-gamma</span></pre>, Lyzi's notebook just says: <strong>"gammas - anti-aliasing. eyes - ow."</strong></div>
 <div>The rest of the style rules are <em>pretty similar</em> to the ones we just covered.</div>
 <div><strong>Woohoo!</strong> CartoCSS styling!</div>
@@ -268,7 +274,7 @@
 <div><strong>Save</strong> to see your changes.</div>
 <div data-bodyclass='buildings16'></div>
 <div>Pretty <em>cool</em>, right?</div>
-<div><strong>Indulge me</strong> in just a <em>couple more</em>.</div>
+<div><strong>Indulge me</strong> in just <em>one more</em>.</div>
 <div>Let's add <strong>parks</strong> to our map! This one is <em>pretty easy</em>:</div>
 <div><pre><span style="display: block; padding: 10px;"><strong>#landuse</strong>[<strong>class</strong>='park'] {<br>&nbsp;&nbsp;<em>polygon-fill:</em>#dec;<br>}</span></pre></div>
 <div data-bodyclass='parks'></div>
